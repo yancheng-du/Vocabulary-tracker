@@ -1,0 +1,41 @@
+/* Set the width of the popup content */
+#vocabulary-table {
+    width: 600px; /* Adjust the width as needed */
+}
+
+/* Set the width of each table cell */
+#vocabulary-table th,
+#vocabulary-table td {
+    text-align: left; /* Align text to the left */
+    padding: 8px; /* Add some padding to the cells */
+    border-bottom: 1px solid #ccc; /* Add bottom border to separate rows */
+}
+
+/* Style the header row */
+#vocabulary-table th {
+    background-color: #f0f0f0; /* Light gray background color */
+    font-weight: bold; /* Bold text */
+}
+
+/* Style the delete button */
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #ff6666;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block; /* Display button as block element */
+    margin-bottom: 8px; /* Add margin bottom to create space */
+}
+
+/* Position confirmation container at the top */
+#confirmation-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-sizing: border-box;
+}

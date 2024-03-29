@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Vocabulary Tracker</h1>
+    <div id="delete-all-container">
+        <button id="delete-all-button">Delete All Entries</button>
+    </div>
+    <div id="confirmation-container" style="display: none;">
+        <p>Are you sure you want to delete all entries?</p>
+        <button id="confirm-delete-button">Yes, Delete All</button>
+        <button id="cancel-delete-button">Cancel</button>
+    </div>
+    <table id="vocabulary-table">
+        <thead>
+            <tr>
+                <th>Word</th>
+                <th>Definition</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="vocabulary-body"></tbody>
+    </table>
+    <script src="popup.js"></script>
+</body>
+</html>
