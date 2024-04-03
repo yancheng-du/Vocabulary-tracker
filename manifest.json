@@ -3,7 +3,7 @@
     "name": "Vocabulary Tracker",
     "version": "1.0",
     "description": "Track and remember your vocabulary searches on Google.",
-    "permissions": ["storage", "activeTab"],
+    "permissions": ["storage"],
     "background": {
         "service_worker": "background.js"
     },
